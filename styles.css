@@ -1,0 +1,24 @@
+body {
+  margin-top: 2em;
+  margin-bottom: 40em;
+}
+* {
+  font-family: consolas;
+  color: white;
+  background-image: linear-gradient(to right, #010101, #232323, #353535);
+}
+textarea {
+  display: block;
+  margin: 1em 0;
+  color: white;
+  border-radius: 10px;
+  background-image: linear-gradient(to right, #66b3ff, #478de0, #2962c0);
+  width: 18em;
+  height: 8em;
+  padding: 1em 1em;
+}
+button {
+  border: 2px solid #66b3ff;
+  border-radius: 1em;
+  padding: 1em 2em;
+}

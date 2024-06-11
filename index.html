@@ -1,0 +1,21 @@
+
+<!DOCTYPE html>
+<html>
+	<head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+		<link rel="stylesheet" href="styles.css">
+	</head>
+	<body>
+		<center>
+		<h1>CSV</h1>
+		<textarea id="input" placeholder="Header 1, Header 2, Header 3 ..."></textarea>
+		<h1>Pattern</h1>
+		<textarea id="pattern" placeholder="{Header 1}, {Header 2}, {Header 3} ..."></textarea>
+		<button onclick="bulkCreate()">Bulk Create</button>
+		<span id="count"></span>
+		<textarea id="output" readonly></textarea>
+		<script src="main.js"></script>
+	</body>
+</html>
